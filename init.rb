@@ -22,4 +22,3 @@ p StoreApplication::Admin.email
 cart = Cart.new('igor')
 cart.add_item RealItem.new({price: 100, weight: 40, name: 'car'})
 cart.add_item RealItem.new({price: 200, weight: 50, name: 'flash'})
-# p cart.all_cars
